@@ -15,16 +15,19 @@ group :development, :test do
 end
 
 group :development do
-  gem 'web-console',           '4.0.2'
-  gem 'listen',                '3.2.1'
-  gem 'spring',                '2.1.0'
-  gem 'spring-watcher-listen', '2.0.1'
+ gem 'web-console',           '4.0.2'
+ gem 'listen',                '3.2.1'
+ gem 'spring',                '2.1.0'
+ gem 'spring-watcher-listen', '2.0.1'
 end
 
 group :test do
-  gem 'capybara',           '3.32.2'
-  gem 'selenium-webdriver', '3.142.7'
-  gem 'webdrivers',         '4.3.0'
+ gem 'capybara',           '3.32.2'
+ gem 'selenium-webdriver', '3.142.7'
+ gem 'webdrivers',         '4.3.0'
+end
+group :production do
+ gem 'pg', '1.2.3'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
