@@ -1,1 +1,4 @@
 <h1>Welcome to Bambank</h1>
+<% if signed_in? %>
+<p>Your balance is <%= current_user.balance %> Bambeuros</p>
+<% end %>
