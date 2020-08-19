@@ -31,10 +31,11 @@ Requirements:
   4.  bundle install
   5.  source <(curl -sL https://cdn.learnenough.com/yarn_install)
   6.  yarn install --check-files
-  7.  rails db:create
-  8.  rails db:migrate RAILS_ENV=development
+  7.  rails db:migrate RAILS_ENV=development
+  8.  rails db:create
   9.  rails server
   10. Visit localhost
+
 
 
 
